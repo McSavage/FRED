@@ -10,7 +10,11 @@ This repository contains Jupyter notebooks for analyzing economic data from the 
 
 1. Clone this repository
 2. Install required dependencies
-3. Open the Jupyter notebooks to explore the economic data analysis
+3. Set up your FRED API key:
+   - Get a free API key at: <https://research.stlouisfed.org/useraccount/apikey>
+   - Copy `.env.example` to `.env`
+   - Replace `your_fred_api_key_here` with your actual API key
+4. Open the Jupyter notebooks to explore the economic data analysis
 
 ## Dependencies
 
